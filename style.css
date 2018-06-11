@@ -29,13 +29,14 @@ html {
   }
   header::before {
     bottom: 0;
-    content:'';
+    content:"";
     left: 0;
     position: absolute;
     right: 0;
     top: 0;
     display: block;
     background-image: url(BG.jpg);
+    background-attachment: fixed;
     background-size: cover;
     transform-origin: center center 0;
     transform: translateZ (-1px) scale(2);
@@ -44,17 +45,18 @@ html {
   }
   header * {
     font-weight: normal;
+    font-size: 2em;
     letter-spacing: 0.2em;
     text-align: center;
     margin: 0;
     padding: 1em 0;
   }
   .spacer {
-    box-sizing: border-box;
-    width: 25%;
-    
-    border-radius: solid;
+    border-style: solid;
     border-color: blue;
-    background-color: blue;
+    border-width: 0.5px;
+    background-color: rgba(108, 176, 243, 0.5);
     text-align: center;
+    color: white;
+    padding: 0 20%;
   }  
