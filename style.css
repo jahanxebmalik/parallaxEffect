@@ -49,77 +49,12 @@ html {
     margin: 0;
     padding: 1em 0;
   }
-
-}
-.spacer {
-    margin: -10%;
-  padding: 2%;
-}
-.block {
-  background-color: black;
-  color: white;
-  width: 75%;
-  margin: 0 auto;
-  border-radius: 15px;
-  font-size: 1em;
-  padding: 2%;
-  Background: rgba(0,0,0,.65);
-}
-.block2 {
-  background-color: black;
-  color: white;
-  width: 50%;
-  margin: 0 auto;
-  border-radius: 15px;
-  font-size: 1.3em;
-  padding: 2%;
-  Background: rgba(0,0,0,.65);
-}
-.connectSpacer {
-  padding-bottom: 20px;
-}
-img {
-  border-radius:15%;
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 250px;
-  height: 250px;
-  margin-top: -1.5%;
-  box-shadow: 5px 5px 5px black;
-}
-.btn {
-  box-shadow: 3px 3px 3px black;
-
-}
-.card {
-  margin: auto;
-  text-align:center;
-}
-.fcolor {
-  background-color: black;
-  color: white;
-  font-size: 16px;
-  padding: 10px 50px 10px;
-  Background: rgba(0,0,0,.80);
-  text-align: center;
-}
-.vcenter {
-  padding-top: 30px;
-  padding-bottom: 10px;
-}
-.vcenterName {
-  padding-top: 5px;
-}
-a, a:visited, a:hover, a:active {
-  color: inherit;
-}
-.btn-twitter {
-  background-color:  #1dcaff;
-}
-.btn-linkedin {
-  background-color:  #007bb5;
-}
-.btn-git {
-  background-color:  #000000;
-}
+  .spacer {
+    box-sizing: border-box;
+    width: 25%;
+    
+    border-radius: solid;
+    border-color: blue;
+    background-color: blue;
+    text-align: center;
+  }  
